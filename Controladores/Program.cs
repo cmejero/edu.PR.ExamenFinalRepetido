@@ -8,10 +8,13 @@ namespace edu.PR.ExamenRepeticion.Controladores
 {
     internal class Program
     {
-        static public string rutaFichero = "C:\\Users\\Carlo\\OneDrive\\Escritorio\\FICHEROS\\";
+       // static public string rutaFichero = "C:\\Users\\Carlo\\OneDrive\\Escritorio\\FICHEROS\\";
+        static public string rutaFichero = "C:C:\\Users\\Carlos\\Desktop\\FICHEROS\\Examen4\\";
         static public string rutaFicheroLogErrores = String.Concat(rutaFichero, Util.nombreFichero());
-        static public string rutaFicheroSeleccion = "C:\\Users\\Carlo\\OneDrive\\Escritorio\\FICHEROS\\ficheroSelecciones.txt";
-        static public string rutaFicheroPacientes = "C:\\Users\\Carlo\\OneDrive\\Escritorio\\FICHEROS\\pacientes.txt";
+        //static public string rutaFicheroSeleccion = "C:\\Users\\Carlo\\OneDrive\\Escritorio\\FICHEROS\\ficheroSelecciones.txt";
+        static public string rutaFicheroSeleccion = "C:\\Users\\Carlos\\Desktop\\FICHEROS\\Examen4\\ficheroSelecciones.txt";
+        //static public string rutaFicheroPacientes = "C:\\Users\\Carlo\\OneDrive\\Escritorio\\FICHEROS\\pacientes.txt";
+        static public string rutaFicheroPacientes = "C:\\Users\\Carlos\\Desktop\\FICHEROS\\Examen4\\pacientes.txt";
         static public List<ClienteDto> listaClientes = new List<ClienteDto>();
 
 
